@@ -1,4 +1,9 @@
-word = "clamb"
+import random
+
+possible_words = ["belly", "craft", "teach", "train", "swell"]
+
+word = random.choice(possible_words)
+
 
 default = '\033[0m'
 green = '\033[92m'
